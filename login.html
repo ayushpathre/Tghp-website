@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - TGH</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="top-bar"></div>
+        <div class="container">
+          <div class="contact-information">
+            <span>9821274610/8879896482</span>
+            <span>thakur@tgh.in</span>
+          </div>
+          <div class="social-media">
+            <!-- <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a> -->
+            <a href="#" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+</div>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <div class="star-container">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="animated-star">
+                    <path d="M50 2 L60 45 L50 60 L40 45 Z" fill="red" transform="translate(0,0) rotate(0 50 50)"/>
+                    <path d="M50 2 L60 45 L50 60 L40 45 Z" fill="red" transform="translate(0,0) rotate(120 50 50)"/>
+                    <path d="M50 2 L60 45 L50 60 L40 45 Z" fill="red" transform="translate(0,0) rotate(240 50 50)"/>
+                </svg>
+            </div>
+            <p class="site-title">tgh</p>
+        </div>
+        
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Services.html">Services</a></li>
+                <li><a href="/career.html">Career</a></li>
+                <li><a href="/contactus.html">Contact Us</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login Form -->
+    <section class="form-section">
+        <div class="form-container">
+            <h2>Login</h2>
+            <form action="/submit-login" method="POST">
+                <label for="email-or-phone">Email or Phone No</label>
+                <input type="text" id="email-or-phone" name="email-or-phone" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <a href="/signup.html" class="forgot-password">Sign Up</a>
+                <a href="#" class="forgot-password">Forgot password?</a>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 @tgh Chartered Accountant Firm. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

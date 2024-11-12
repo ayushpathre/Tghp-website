@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Firm | Responsive Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <div id="preloader">
+        <div class="star-container">
+
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="animated-star">
+                <path d="M50 2 L60 45 L50 60 L40 45 Z" fill="red" transform="translate(0,0) rotate(0 50 50)" />
+                <path d="M50 2 L60 45 L50 60 L40 45 Z" fill="red" transform="translate(0,0) rotate(120 50 50)" />
+                <path d="M50 2 L60 45 L50 60 L40 45 Z" fill="red" transform="translate(0,0) rotate(240 50 50)" />
+            </svg>
+        </div>
+    </div> -->
+
+    <!-- </div>
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-information">
+                <span>8390545627</span>
+                <span>office@tgh.in</span>
+            </div>
+            <div class="social-media">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Updated Header -->
+    <header>
+        <div class="logo">
+            <div class="star-container-logo">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="animated-star-logo">
+                    <path d="M50 2 L60 45 L50 60 L40 45 Z" fill="red" transform="translate(0,0) rotate(0 50 50)" />
+                    <path d="M50 2 L60 45 L50 60 L40 45 Z" fill="red" transform="translate(0,0) rotate(120 50 50)" />
+                    <path d="M50 2 L60 45 L50 60 L40 45 Z" fill="red" transform="translate(0,0) rotate(240 50 50)" />
+                </svg>
+            </div>
+            <p class="site-title">tgh</p>
+        </div>
+    
+        <nav>
+            <ul id="menuList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Service.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Carrer.html">Career</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Mobile Menu Icon -->
+        <div class="menu-icon">
+           <div class="menu-icon-outlined" onclick="toggleMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="10" rx="5"></rect>
+                <rect y="30" width="100" height="10" rx="5"></rect>
+                <rect y="60" width="100" height="10" rx="5"></rect>
+            </svg>
+         </div>
+        
+        </div>
+    
+        <!-- Mobile Menu (Now inside header) -->
+        <div class="nav-mobile" id="mobileMenu">
+            <div class="top-section">
+                <a href="/login.html" class="login-btn">Log in</a>
+                <a href="/signup.html" class="signup-btn">Sign Up</a>
+            </div>
+            <div class="search-section">
+                <input type="text" placeholder="Search...">
+                <span class="material-icons search-icon">search</span>
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Service.html">Services</a></li>
+                <li><a href="/carrer.html">Career</a></li>
+                <li><a href="/Contact.html">Contact</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="services-layout">
+                <!-- Service List (Left Column) -->
+                <div class="services-list">
+                    <h2>Our Services</h2>
+                    <ul>
+                        <li><a href="#service1">Audit & Assurance Services</a></li>
+                        <li><a href="#service2">Management Assurance Services</a></li>
+                        <li><a href="#service3">Corporate Financial & Legal Advisory Services</a></li>
+                        <li><a href="#service4">Taxation (Direct & Indirect)</a></li>
+                        <li><a href="#service5">Compliance Advisory Services</a></li>
+                        <li><a href="#service6">Operational Consultancy</a></li>
+                        <li><a href="#service7">Financial Consulting</a></li>
+                    </ul>
+                </div>
+
+                <!-- Service Details (Right Column) -->
+                <div class="service-details">
+                    <div id="service1" class="service-item"   style="display: none;">
+                        <h2>Audit & Assurance Services</h2>
+                        <p><strong>Ensuring Accuracy, Compliance, and Transparency</strong></p>
+                        <p>Audit & Assurance Services form the cornerstone of our practice. At T.G. Hotchandani &
+                            Associates, we understand that reliable financial information is crucial for making informed
+                            business decisions. Our Audit & Assurance Services are designed to enhance the reliability
+                            of information prepared by our clients for use by investors, creditors, and other
+                            stakeholders.</p>
+                        <ul>
+                            <li><strong>Internal Audits:</strong> We conduct thorough evaluations of your organization’s
+                                internal controls, processes, and governance to ensure that your operations are running
+                                efficiently and effectively. Our internal audits help in identifying risks, enhancing
+                                operational efficiency, and improving governance.</li>
+                            <li><strong>Statutory Audits:</strong> Our statutory audit services ensure that your
+                                financial statements comply with all statutory and regulatory requirements. We work
+                                closely with you to provide assurance that your financial reporting is accurate and
+                                reliable.</li>
+                            <li><strong>Regulatory Audits:</strong> We conduct audits mandated by regulatory bodies such
+                                as the Reserve Bank of India (RBI), Securities and Exchange Board of India (SEBI),
+                                National Securities Depository Limited (NSDL), Central Depository Services Limited
+                                (CDSL), and National Payments Corporation of India (NPCI). These audits ensure
+                                compliance with specific regulatory frameworks.</li>
+                            <li><strong>Concurrent/Stock Audits:</strong> Our concurrent and stock audits are conducted
+                                in real-time to provide ongoing assurance regarding the accuracy of financial
+                                transactions and inventory management.</li>
+                            <li><strong>Operations & Process Audits:</strong> We review and evaluate your business
+                                operations and processes to ensure they are optimized for efficiency and aligned with
+                                your strategic objectives.</li>
+                            <li><strong>Tax Audits:</strong> Our tax audit services ensure that your business complies
+                                with all tax regulations, helping you to avoid penalties and optimize your tax
+                                liabilities.</li>
+                            <li><strong>Fraud Investigation Assignments:</strong> We offer specialized services in
+                                investigating frauds and financial irregularities, helping organizations to identify and
+                                mitigate fraudulent activities.</li>
+                            <li><strong>Provident Fund and Superannuation Trust Audits:</strong> We audit employee
+                                benefit schemes such as provident funds and superannuation trusts to ensure compliance
+                                with statutory requirements.</li>
+                        </ul>
+                    </div>
+                    <div id="service2" class="service-item"   style="display: none;">
+                        <h2>Management Assurance Services</h2>
+                        <p><strong>Enhancing Business Processes and Strategic Planning</strong></p>
+                        <p>In today’s dynamic business environment, effective management is crucial to sustaining growth
+                            and ensuring long-term success. Our Management Assurance Services are designed to help
+                            organizations improve their processes, manage risks, and achieve their strategic objectives.
+                        </p>
+                        <ul>
+                            <li><strong>Migration Assistance & Reconciliation to Core Banking Systems:</strong> We
+                                assist financial institutions in migrating to new core banking systems and ensure that
+                                all transactions and accounts are accurately reconciled during the transition.</li>
+                            <li><strong>Business Process Re-engineering:</strong> We help organizations to redesign
+                                their business processes to achieve significant improvements in critical areas such as
+                                cost, quality, service, and speed.</li>
+                            <li><strong>Due Diligence Assignments:</strong> Our due diligence services provide a
+                                thorough assessment of potential investments, mergers, and acquisitions, helping you
+                                make informed decisions.</li>
+                            <li><strong>Payroll Processing & Vendor Payment Processing:</strong> We offer comprehensive
+                                payroll processing services, ensuring that your employees are paid accurately and on
+                                time. Additionally, we manage vendor payments to ensure smooth business operations.</li>
+                            <li><strong>Controls and Monitoring of Inter-office Accounts:</strong> We implement controls
+                                and monitor inter-office accounts to ensure accuracy and compliance across multiple
+                                locations or branches.</li>
+                            <li><strong>Clearing and Reconciliation:</strong> Our services include the reconciliation of
+                                clearing accounts, pay orders, demand drafts, and ATM transactions to ensure accuracy
+                                and prevent discrepancies.</li>
+                            <li><strong>ESOP Administration & Consultancy:</strong> We offer expert advice and
+                                administration services for Employee Stock Ownership Plans (ESOPs), helping you to
+                                manage and maximize the benefits of these programs.</li>
+                        </ul>
+                    </div>
+                    <div id="service3" class="service-item"  style="display: none;">
+                        <h2>Corporate Financial & Legal Advisory Services</h2>
+                        <p><strong>Strategic Financial Planning and Legal Compliance</strong></p>
+                        <p>Navigating the complex landscape of corporate finance and legal regulations requires expert
+                            guidance. Our Corporate Financial & Legal Advisory Services provide businesses with the
+                            insights and strategies needed to manage financial risks, optimize capital structure, and
+                            comply with legal requirements.</p>
+                        <ul>
+                            <li><strong>Financial Planning & Analysis:</strong> We assist businesses in developing
+                                comprehensive financial plans that align with their strategic goals. Our analysis helps
+                                in optimizing financial performance and making informed business decisions.</li>
+                            <li><strong>Mergers & Acquisitions Advisory:</strong> We provide expert advice on mergers,
+                                acquisitions, and divestitures, helping you to maximize value and achieve strategic
+                                growth.</li>
+                            <li><strong>Legal Compliance:</strong> Our legal advisory services ensure that your business
+                                complies with all relevant laws and regulations, minimizing legal risks and ensuring
+                                smooth operations.</li>
+                            <li><strong>Corporate Restructuring:</strong> We assist in corporate restructuring
+                                activities, including debt restructuring, capital restructuring, and business turnaround
+                                strategies.</li>
+                        </ul>
+                    </div>
+                    <div id="service4" class="service-item"  style="display: none;">
+                        <h2>Taxation (Direct & Indirect)</h2>
+                        <p><strong>Comprehensive Tax Solutions for Businesses</strong></p>
+                        <p>Taxation is a critical aspect of business management, and our team of experts is here to help
+                            you navigate the complexities of both direct and indirect taxes. We provide comprehensive
+                            tax solutions that help you minimize liabilities while ensuring full compliance with all tax
+                            regulations.</p>
+                        <ul>
+                            <li><strong>Direct Tax Consultancy:</strong> We offer advice on income tax, corporate tax,
+                                capital gains tax, and international taxation. Our services include tax planning,
+                                compliance, and representation before tax authorities.</li>
+                            <li><strong>Indirect Tax Consultancy:</strong> Our indirect tax services include GST
+                                compliance, VAT, customs duties, and excise tax. We help businesses manage their
+                                indirect tax obligations effectively and efficiently.</li>
+                            <li><strong>TDS Compliance Framework:</strong> We provide specialized consultancy in Tax
+                                Deducted at Source (TDS) matters, helping businesses implement and maintain effective
+                                TDS compliance frameworks.</li>
+                        </ul>
+                    </div>
+                    <div id="service5" class="service-item" style="display: none;">
+                        <h2>Compliance Advisory Services</h2>
+                        <p><strong>Ensuring Adherence to Regulatory Standards</strong></p>
+                        <p>In an increasingly regulated business environment, compliance is more important than ever.
+                            Our Compliance Advisory Services are designed to help businesses understand and comply with
+                            the complex web of regulations that govern their operations.</p>
+                        <ul>
+                            <li><strong>Regulatory Compliance:</strong> We provide guidance on a wide range of
+                                regulatory compliance issues, ensuring that your business adheres to all applicable laws
+                                and regulations.</li>
+                            <li><strong>Risk Management:</strong> Our risk management services help businesses identify,
+                                assess, and mitigate risks that could impact their operations and compliance.</li>
+                            <li><strong>Corporate Governance:</strong> We assist businesses in implementing effective
+                                corporate governance practices that align with regulatory requirements and industry best
+                                practices.</li>
+                        </ul>
+                    </div>
+                    <div id="service6" class="service-item" style="display: none;">
+                        <h2>Operational Consultancy</h2>
+                        <p><strong>Optimizing Business Operations for Success</strong></p>
+                        <p>Operational efficiency is key to business success, and our Operational Consultancy services
+                            are designed to help businesses streamline their operations, reduce costs, and improve
+                            performance.</p>
+                        <ul>
+                            <li><strong>Process Improvement:</strong> We help businesses identify inefficiencies in
+                                their processes and implement improvements that lead to better performance and lower
+                                costs.</li>
+                            <li><strong>Supply Chain Management:</strong> Our supply chain management services help
+                                businesses optimize their supply chain operations, ensuring timely delivery of products
+                                and services.</li>
+                            <li><strong>Operational Risk Management:</strong> We provide expert guidance on identifying
+                                and managing operational risks, helping businesses to avoid disruptions and maintain
+                                continuity.</li>
+                        </ul>
+                    </div>
+                    <div id="service7" class="service-item" style="display: none;">
+                        <h2>HR & Payroll Operation Solutions</h2>
+                        <p><strong>Streamlining HR Processes and Payroll Management</strong></p>
+                        <p>Managing human resources effectively is critical to the success of any organization. Our HR &
+                            Payroll Operation Solutions are designed to help businesses streamline their HR processes
+                            and manage payroll efficiently.</p>
+                        <ul>
+                            <li><strong>Payroll Processing:</strong> We offer comprehensive payroll processing services,
+                                ensuring accurate and timely payment of employees’ salaries and benefits.</li>
+                            <li><strong>HR Management:</strong> Our HR management services include recruitment,
+                                performance management, employee engagement, and compliance with labor laws.</li>
+                            <li><strong>Employee Benefits Administration:</strong> We assist businesses in managing
+                                employee benefits, including health insurance, retirement plans, and other perks.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <p>&copy; 2024 TGH. All Rights Reserved.</p>
+      <ul id="menuList-footer" class="footer-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Service.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
